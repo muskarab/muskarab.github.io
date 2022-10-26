@@ -4,17 +4,17 @@ const config = {
   github: {
     username: 'muskarab', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 8, // How many projects to display.
+    limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'mustafakamalrabbani',
     twitter: '',
     facebook: '',
-    instagram: '',
+    instagram: 'muskarab',
     dribbble: '',
     behance: '',
     medium: '',
@@ -41,32 +41,19 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Alfath Tech',
+      position: 'BackEnd Developer',
+      from: 'Juli 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: 'https://alfathtech.co.id',
     },
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'UIN Malang',
+      degree: 'Informatics Engineering',
+      from: '2017',
+      to: '2021',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
